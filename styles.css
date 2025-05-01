@@ -1,0 +1,89 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header and Navigation */
+header {
+  background: #d33d2d; /* A Jenkins-inspired red */
+  color: #fff;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8em 1em;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  margin-left: 1em;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  max-width: 960px;
+  margin: 2em auto;
+  padding: 2em;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+section h2 {
+  color: #d33d2d;
+  border-bottom: 2px solid #d33d2d;
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
+}
+
+ol, ul {
+  margin-left: 1.5em;
+}
+
+/* Code block styling */
+pre {
+  background: #f0f0f0;
+  padding: 1em;
+  overflow-x: auto;
+  border: 1px solid #ddd;
+  font-family: Consolas, monospace;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background: #333;
+  color: #fff;
+}
